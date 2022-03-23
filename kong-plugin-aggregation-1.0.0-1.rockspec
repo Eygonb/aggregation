@@ -13,7 +13,7 @@ version = package_version .. "-" .. rockspec_revision
 supported_platforms = { "linux", "macosx" }
 source = {
   url = "git://github.com/"..github_account_name.."/"..github_repo_name..".git",
-  branch = git_checkout,
+  branch = "main",
 }
 
 
